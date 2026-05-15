@@ -39,6 +39,10 @@ table th, table td{
     padding: 1rem 0.5rem;
 }
 
+table td i{
+    padding-left: 0.5rem;
+}
+
 @media(min-width:1070px){
     table td{
         width: 20rem;
