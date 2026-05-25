@@ -40,7 +40,8 @@ table th{
 }
 
 table td i{
-    padding-left: 0.35rem;
+    padding-left: 0.3rem;
+    font-size: 1.05rem;
 }
 
 @media(min-width:1070px){
