@@ -50,7 +50,6 @@ table td i{
     }
 }
 
-
 @media(max-width:970px){
    table th, table td{
     font-size: 0.8rem;
