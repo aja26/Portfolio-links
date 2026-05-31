@@ -9,12 +9,41 @@
   font-family: 'poppins', sans-serif;
 }
 
+:root{
+    --primary: rgb(101, 225, 239);
+}
+
 body{
     width: 100%;
     min-height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+}
+
+main{
+    width: 75%;
+}
+
+/* header */
+header{
+    width: 100%;
+    background-color: var(--primary);
+}
+
+ul{
+    display: flex;
+    padding: 1rem 0;
+}
+
+header ul li{
+    padding: 0 2rem;
+    list-style: none;
+}
+
+header ul li a{
+     color:#fff;
+     font-weight: 600;
 }
 
 table{
@@ -33,8 +62,8 @@ table th, table td{
 }
 
 table th{
-    border: 1px solid rgb(101, 225, 239);
-    border-bottom: 0.5rem solid rgb(101, 225, 239);
+    border: 1px solid var(--primary);;
+    border-bottom: 0.5rem solid var(--primary);;
     padding: 1.25rem 0.5rem;
     font-size: 1.125rem;
 }
