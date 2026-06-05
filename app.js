@@ -1,3 +1,5 @@
+// Scroll on page plugin
+
 gsap.registerPlugin(ScrollTrigger);
 
 let direction = 1; // 1 = forward, -1 = backward scroll
