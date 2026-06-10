@@ -89,16 +89,16 @@ table td i{
 
 /* animation */
 
-.textroll-section{
+/* .textroll-section{
     background-color: rgb(175, 175, 175);
     overflow: hidden;
-}
+} */
 
 .wrapperRollingText {
   white-space: nowrap;
   font-family: 'Playfair Display', serif;
   font-weight: 800;
-  margin-top: 7rem;
+  margin-top: 10rem;
 }
 
 .rollingText {
