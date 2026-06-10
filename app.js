@@ -5,12 +5,14 @@ gsap.registerPlugin(ScrollTrigger);
 let direction = 1; // 1 = forward, -1 = backward scroll
 
 const roll1 = roll(".rollingText", {duration: 17}),
+const roll2 = roll(".rollingText2", {duration: 17}),
      
       scroll = ScrollTrigger.create({
         onUpdate(self) {
           if (self.direction !== direction) {
             direction *= -1;
             gsap.to([roll1], {timeScale: direction, overwrite: true});
+            gsap.to([roll2], {timeScale: direction, overwrite: true});
           }
         }
       });
