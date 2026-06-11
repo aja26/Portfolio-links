@@ -102,10 +102,23 @@ table td i{
 }
 
 .rollingText {
-  font-size: 10em;
-  display: inline-block;
+  font-size: 8em;
+  display: flex;
   padding-left: 10px;
 }
+
+.name-wrap {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    white-space: nowrap;
+}
+
+.name-wrap h1 {
+    white-space: nowrap;
+    margin: 0;
+}
+
 
 
 @media(min-width:1070px){
