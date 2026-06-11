@@ -2,7 +2,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 let direction = 1; // 1 = forward, -1 = backward scroll
 
-const roll1 = roll(".rollingText", {duration: 18}),
+const roll1 = roll(".big-name .name-wrap", {duration: 18}),
       scroll = ScrollTrigger.create({
         onUpdate(self) {
           if (self.direction !== direction) {
