@@ -95,16 +95,17 @@ table td i{
 } */
 
 .wrapperRollingText {
-  white-space: nowrap;
-  font-family: 'Playfair Display', serif;
-  font-weight: 800;
-  margin-top: 10rem;
+    white-space: nowrap;
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+    margin-top: 10rem;
 }
 
 .rollingText {
-  font-size: 8em;
-  display: flex;
-  padding-left: 10px;
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 8em;
 }
 
 .name-wrap {
