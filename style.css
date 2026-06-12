@@ -89,11 +89,6 @@ table td i{
 
 /* animation */
 
-/* .textroll-section{
-    background-color: rgb(175, 175, 175);
-    overflow: hidden;
-} */
-
 .wrapperRollingText {
     white-space: nowrap;
     font-family: 'Playfair Display', serif;
@@ -119,8 +114,6 @@ table td i{
     white-space: nowrap;
     margin: 0;
 }
-
-
 
 @media(min-width:1070px){
     table td{
