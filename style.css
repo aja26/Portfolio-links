@@ -21,6 +21,11 @@ body{
     align-items: flex-start;
 }
 
+.main-container{
+    overflow: hidden;
+    width: 100%;
+}
+
 main{
     width: 75%;
 }
