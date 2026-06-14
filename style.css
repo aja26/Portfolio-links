@@ -22,11 +22,6 @@ body{
     overflow-x: hidden;
 }
 
-.main-container{
-    overflow: hidden;
-    width: 100%;
-}
-
 main{
     width: 75%;
 }
