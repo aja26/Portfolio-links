@@ -90,11 +90,14 @@ table td i{
 
 /* animation */
 
+section.textroll-section{
+    background-color: #c5e37e;
+}
+
 .wrapperRollingText {
-    white-space: nowrap;
     font-family: 'Playfair Display', serif;
     font-weight: 800;
-    margin-top: 10rem;
+    white-space: nowrap;
 }
 
 .rollingText {
@@ -107,7 +110,7 @@ table td i{
 .name-wrap {
     display: flex;
     align-items: center;
-    flex-shrink: 0;
+    margin-top: 40vh;
     white-space: nowrap;
 }
 
