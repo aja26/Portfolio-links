@@ -39,3 +39,5 @@ function roll(targets, vars, reverse) {
   });
   return tl;
 }
+
+// Magnetic buttons
