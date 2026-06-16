@@ -40,4 +40,33 @@ function roll(targets, vars, reverse) {
   return tl;
 }
 
-// Magnetic buttons
+/**
+ *  Magnetic buttons
+ */
+
+function initMagneticButtons() {
+    
+  // Magnetic Buttons
+  // Found via: https://codepen.io/tdesero/pen/RmoxQg
+  var magnets = document.querySelectorAll('.magnetic');
+  var strength = 100;
+  
+  // START : If screen is bigger as 540 px do magnetic
+  if(window.innerWidth > 540){
+  // Mouse Reset
+  magnets.forEach( (magnet) => {
+    magnet.addEventListener('mousemove', moveMagnet );
+    $(this.parentNode).removeClass('not-active');
+    magnet.addEventListener('mouseleave', function(event) {
+        gsap.to( event.currentTarget, 1.5, {
+          x: 0, 
+          y: 0, 
+          ease: Elastic.easeOut
+        });
+        gsap.to( $(this).find(".btn-text"), 1.5, {
+          x: 0, 
+          y: 0, 
+          ease: Elastic.easeOut
+        });
+    });
+  });
