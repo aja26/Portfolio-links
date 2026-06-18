@@ -119,6 +119,41 @@ section.textroll-section{
     margin: 0;
 }
 
+
+/* Magnetic button */
+
+section.testing-buttons{
+    background-color: antiquewhite;
+    height: 10rem;
+}
+
+section.testing-buttons .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#magnet-button {
+  display: inline-block;
+}
+
+.my-button {
+  background-color: #FFF;
+  padding: 1rem;
+  border-radius: 10%;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+.my-button:hover {
+  color: #FFF;
+  background-color: #000;
+  transition: 0.5s background-color, 0.5s box-shadow;
+  box-shadow: 0px 2px 25px rgba(0,0,0,0.5);
+}
+
+
 @media(min-width:1070px){
     table td{
         width: 20rem;
