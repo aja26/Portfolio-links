@@ -75,3 +75,6 @@ function moveMagnet(event) {
 
     
  
+
+
+console.log(document.querySelectorAll('.name-wrap').length);
