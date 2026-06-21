@@ -102,6 +102,7 @@ section.textroll-section{
 
 .rollingText {
     display: flex;
+    /* position: relative; */
     overflow: hidden;
     white-space: nowrap;
     font-size: 8em;
