@@ -32,13 +32,16 @@ header{
     background-color: var(--primary);
 }
 
+ul > * {
+    margin: 0 2rem;
+}
+
 ul{
     display: flex;
     padding: 1rem 0;
 }
 
 header ul li{
-    padding: 0 2rem;
     list-style: none;
 }
 
