@@ -166,7 +166,11 @@ section.testing-buttons .container{
 
 @media(max-width:970px){
    table th, table td{
-    font-size: 0.8rem;
-    padding: 1rem 0.25rem;
+        font-size: 0.8rem;
+        padding: 1rem 0.25rem;
    }
+
+   main {
+        width: 88%;
+    }
 }
