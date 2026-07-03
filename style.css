@@ -33,7 +33,7 @@ header{
 }
 
 ul > * {
-    margin: 0 2rem;
+    margin: 0 clamp(1.35rem, 4vw, 4rem);
 }
 
 ul{
@@ -164,7 +164,7 @@ section.testing-buttons .container{
     }
 }
 
-@media(max-width:970px){
+@media(max-width:770px){
    table th, table td{
         font-size: 0.8rem;
         padding: 1rem 0.25rem;
