@@ -182,4 +182,8 @@ section.testing-buttons .container{
    main {
         width: 88%;
     }
+
+    header ul li {
+        font-size: 0.82rem;
+    }
 }
