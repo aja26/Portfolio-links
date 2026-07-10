@@ -186,4 +186,13 @@ section.testing-buttons .container{
     header ul li {
         font-size: 0.82rem;
     }
+
+    header .social-menu ul{
+        margin-left: -5.25rem
+    }
+
+    header .social-menu li {
+        margin: 0 0.75rem;
+        font-size: 1rem;
+    }
 }
