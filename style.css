@@ -36,6 +36,11 @@ ul > * {
     margin: 0 clamp(1.35rem, 4vw, 3rem);
 }
 
+header nav.container{
+    display: flex;
+    justify-content: space-between;
+}
+
 ul{
     display: flex;
     padding: 1rem 0;
@@ -53,6 +58,10 @@ header ul li a{
 
 header ul li a:hover{
     text-decoration: underline;
+}
+
+header .social-menu li{
+    margin: 0 1.5rem;
 }
 
 table{
