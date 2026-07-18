@@ -23,7 +23,7 @@ body{
 }
 
 main{
-   width: clamp(20rem, 75%, 55rem);
+   width: clamp(20rem, 75%, 60rem);
 }
 
 /* header */
