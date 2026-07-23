@@ -56,51 +56,55 @@
             <h1 class="form-title">Contact Us</h1>
 
             <!-- Contact form -->
-            <form action="https://formspree.io/f/xbdnglbb" method="POST">
+            <div class="contact-form">
 
-                <div class="input-container">
-                    <label>
-                        <p>Your Name:</p> 
-                        <input type="name" name="name">
-                     </label>
+                <form action="https://formspree.io/f/xbdnglbb" method="POST">
+
+                    <div class="input-container">
+                        <label>
+                            <p>Your Name:</p> 
+                            <input type="name" name="name">
+                        </label>
+                    </div>
+                    
+                    <div class="input-container">
+                        <label>
+                            <p>Your Email:</p> 
+                            <input type="email" name="email">
+                        </label>
+                    </div>
+                
+                    <div class="input-container">
+                        <label>
+                            <p>Your Message:</p> 
+                            <textarea name="message"></textarea>
+                        </label>
+                    </div>
+                
+                    <!-- your other form fields go here -->
+                    <div class="input-container">
+                        <button type="submit">Send</button>
+                    </div>
+                </form>
+            </div> 
+
+             <!-- Contact Info -->
+            <div class="contact-info">
+                <div class="phone">
+                    <h4>Phone: 00000000000</h4>
                 </div>
                 
-                <div class="input-container">
-                    <label>
-                        <p>Your Email:</p> 
-                        <input type="email" name="email">
-                     </label>
+                <div class="email">
+                    <h4>Email: info@something.com</h4>
                 </div>
-               
-                <div class="input-container">
-                    <label>
-                        <p>Your Message:</p> 
-                        <textarea name="message"></textarea>
-                    </label>
+
+                <div class="address">
+                    <h4>Address: 4 street name</h4>
                 </div>
-               
-                <!-- your other form fields go here -->
-                 <div class="input-container">
-                    <button type="submit">Send</button>
-                 </div>
-                
-            </form>
+            </div>
+          
         </div>
 
-        <!-- Contact Info -->
-         <div class="contact-info">
-            <div class="phone">
-                <h4>Phone: 00000000000</h4>
-            </div>
-            
-            <div class="email">
-                <h4>Email: info@something.com</h4>
-            </div>
-
-            <div class="address">
-                <h4>Address: 4 street name</h4>
-            </div>
-         </div>
     </main>
     
 </body>
