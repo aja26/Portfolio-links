@@ -185,7 +185,7 @@ section.testing-buttons .container{
 
 .contact-container{
     display: flex;
-    gap: 1rem;
+    gap: 1.5rem;
 }
 
 .contact-container .contact-form{
