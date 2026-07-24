@@ -183,6 +183,19 @@ section.testing-buttons .container{
 
 /* Contact Page */
 
+.contact-container{
+    display: flex;
+    gap: 1rem;
+}
+
+.contact-container .contact-form{
+    flex: 2;
+}
+
+.contact-container .contact-info{
+    flex: 1;
+}
+
 h1.form-title{
     margin: 2rem 0;
 }
