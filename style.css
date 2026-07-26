@@ -185,7 +185,7 @@ section.testing-buttons .container{
 
 .contact-container{
     display: flex;
-    gap: 1.75rem;
+    gap: 1.5rem;
 }
 
 .contact-container .contact-form{
@@ -212,6 +212,7 @@ form .input-container label, input, textarea{
 form .input-container button{
     background-color: red;
     border: 0;
+    margin-bottom: 1.5rem;
     padding: 0.5rem 1.5rem;
     color: #FFF;
     font-size: 1.1rem;
@@ -251,4 +252,12 @@ form .input-container button{
         margin: 0 0.75rem;
         font-size: 1rem;
     }
+
+    .contact-container{
+        flex-direction: column;
+    }
+
+    .contact-container{
+        gap: 1rem;
+    }   
 }
