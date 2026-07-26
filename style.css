@@ -209,6 +209,10 @@ form .input-container label, input, textarea{
     width: 100%;
 }
 
+form .input-container input, form .input-container textarea{
+    padding: 0.35rem 0.5rem;
+}
+
 form .input-container button{
     background-color: red;
     border: 0;
