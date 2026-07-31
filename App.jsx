@@ -73,7 +73,7 @@
 //   //magnetButton.style.transform = 'translate(' + (((( event.clientX - bounding.left)/(magnetButton.offsetWidth))) - 0.5) * strength + 'px,'+ (((( event.clientY - bounding.top)/(magnetButton.offsetHeight))) - 0.5) * strength + 'px)';
 // }
 
-function App() {
+export default function App() {
   return (
     <div>
       <h1>React is working! 🎉</h1>
@@ -82,4 +82,3 @@ function App() {
   );
 }
 
-export default App;
