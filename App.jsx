@@ -76,7 +76,7 @@
 export default function App() {
   return (
     <div>
-      <h1>React is working! 🎉</h1>
+      <h1>React is working! </h1>
       <p>{2 + 2}</p>
     </div>
   );
