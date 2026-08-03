@@ -9,7 +9,11 @@ import Contact from "./src/pages/Contact";
 export default function App(){
     return(
         <>
-            <Navbar />
+        <main>
+             <Navbar />
+
+        </main>
+           
 
             <Routes>
                 <Route path="/" element={<Home />} />

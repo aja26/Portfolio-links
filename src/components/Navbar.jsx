@@ -25,13 +25,26 @@ export default function Navbar(){
                         </div>
 
                         <div className="magnetic">
-                            <Link to="/contact">contact</Link>
+                            <li>
+                                 <Link to="/contact">contact</Link>
+                            </li>
                         </div>
                     
                     </ul>
                     
                  </div>
             </nav>
+
+             <div className="social-menu">
+                    <ul>
+                        <div className="magnetic">
+                            <li><a target="_blank" href="https://www.linkedin.com/in/adam-alexander-91528337/"><i className="ri-linkedin-box-fill"></i></a></li>
+                        </div>
+                        <div className="magnetic">
+                            <li><a target="_blank" href="https://www.behance.net/AdamJA"><i className="ri-behance-line"></i></a></li>
+                        </div>
+                    </ul>
+                </div>
         </header>
 
         
