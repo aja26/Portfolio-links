@@ -1,44 +1,45 @@
 export default function Home(){
     return <>
-         {/* <table>
-            <tr>
+         <table>
+            <tbody>
+                 <tr>
                 <th>Commercial Links</th>
                 <th>Skills Links</th>
                 <th>Fun Creative Projects</th>
             </tr>
             <tr>
-                <td><a target="_blank" href="https://www.msasafety.co.uk/">msasafety</a><i class="ri-wordpress-line"></i></td>
-                <td><a target="_blank" href="https://bootstrap-ebook-website-fg673r5wq-aja26s-projects.vercel.app/">Blog Mastery</a><i class="ri-bootstrap-line"></i></td>
-                <td><a target="_blank" href="https://pearsons-consultancy.vercel.app/">Pearsons Consultancy</a><i class="ri-html5-fill"></i></td>
+                <td><a target="_blank" href="https://www.msasafety.co.uk/">msasafety</a><i className="ri-wordpress-line"></i></td>
+                <td><a target="_blank" href="https://bootstrap-ebook-website-fg673r5wq-aja26s-projects.vercel.app/">Blog Mastery</a><i className="ri-bootstrap-line"></i></td>
+                <td><a target="_blank" href="https://pearsons-consultancy.vercel.app/">Pearsons Consultancy</a><i className="ri-html5-fill"></i></td>
             </tr>
             <tr>
-                <td><a target="_blank" href="https://www.frontrunnerrecruitment.co.uk/">frontrunnerrecruitment</a><i class="ri-wordpress-line"></i></td>
-                <td><a target="_blank" href="https://vera-bootstrap-websote.vercel.app/">Vera Website</a><i class="ri-bootstrap-line"></i></td>
+                <td><a target="_blank" href="https://www.frontrunnerrecruitment.co.uk/">frontrunnerrecruitment</a><i className="ri-wordpress-line"></i></td>
+                <td><a target="_blank" href="https://vera-bootstrap-websote.vercel.app/">Vera Website</a><i className="ri-bootstrap-line"></i></td>
                 <td><a target="_blank" href=""></a></td>
             </tr>
             <tr>
-                <td><a target="_blank" href="https://empiricpartners.com/">empiricpartners</a><i class="ri-wordpress-line"></i></td>
+                <td><a target="_blank" href="https://empiricpartners.com/">empiricpartners</a><i className="ri-wordpress-line"></i></td>
                 <td><a target="_blank" href="https://three-js-51-importing-and-optimizin.vercel.app/">ThreeJS Portal Scene</a></td>
                 <td><a target="_blank" href=""></a></td>
             </tr>
             <tr>
-                <td><a target="_blank" href="https://www.groupbraddock.com/">groupbraddock</a><i class="ri-wordpress-line"></i></td>
+                <td><a target="_blank" href="https://www.groupbraddock.com/">groupbraddock</a><i className="ri-wordpress-line"></i></td>
                 <td><a target="_blank" href="https://haunted-house-three-js-sigma.vercel.app/">ThreeJS Haunted House</a></td>
                 <td><a target="_blank" href=""></a></td>
             </tr>
              <tr>
-                <td><a target="_blank" href="https://hcr.co.uk/">hcr.co.uk</a><i class="ri-wordpress-line"></i></td>
+                <td><a target="_blank" href="https://hcr.co.uk/">hcr.co.uk</a><i className="ri-wordpress-line"></i></td>
                 <td><a target="_blank" href="https://galaxy-generator-three-js-nine.vercel.app/">Three.hs Galaxy Generator</a> </td>
                 <td><a target="_blank" href=""></a></td>
             </tr>
             <tr>
-                <td><a target="_blank" href="https://rtsfinancialplanning.co.uk/">rts financial planning</a><i class="ri-wordpress-line"></i></td>
+                <td><a target="_blank" href="https://rtsfinancialplanning.co.uk/">rts financial planning</a><i className="ri-wordpress-line"></i></td>
                 <td><a target="_blank" href="https://three-js-scroll-based-animation.vercel.app/">Three.JS Basic Scroll Animation</a></td>
                 <td><a target="_blank" href="https://sunnyside-agency-landing-page-git-main-aja26.vercel.app/">SunnySide Landing page</a></td>
             </tr>
             <tr>
                 <td><a target="_blank" href=""></a></td>
-                <td><a target="_blank" href="https://66-create-a-game-with-r3f-nu.vercel.app/">Ball Game Three.js</a><i class="ri-reactjs-line"></i></td>
+                <td><a target="_blank" href="https://66-create-a-game-with-r3f-nu.vercel.app/">Ball Game Three.js</a><i className="ri-reactjs-line"></i></td>
                <td><a target="_blank" href="https://zebra-landing-page.vercel.app/">Zebra Landing Page</a></td>
             </tr>
             <tr>
@@ -59,12 +60,12 @@ export default function Home(){
             <tr>
                 <td><a target="_blank" href=""></a></td>
                 <td><a target="_blank" href=""></a></td>
-                <td><a href="https://loopstudios-landing-page-main-coral.vercel.app/">Look Studio Landing page</a><i class="ri-html5-fill"></i></td>
+                <td><a href="https://loopstudios-landing-page-main-coral.vercel.app/">Look Studio Landing page</a><i className="ri-html5-fill"></i></td>
             </tr>
             <tr>
                 <td><a target="_blank" href=""></a></td>
                 <td></td>
-                <td><a target="_blank" href="https://insure-landing-page-master-coral.vercel.app/">Insurance Landing page</a><i class="ri-html5-fill"></i></td>
+                <td><a target="_blank" href="https://insure-landing-page-master-coral.vercel.app/">Insurance Landing page</a><i className="ri-html5-fill"></i></td>
             </tr>
             <tr>
                 <td><a target="_blank" href=""></a></td>
@@ -166,6 +167,9 @@ export default function Home(){
                 <td><a target="_blank" href=""></a></td>
                 <td><a target="_blank" href=""></a></td>
             </tr>
-        </table> */}
+
+            </tbody>
+           
+        </table>
     </>
 }

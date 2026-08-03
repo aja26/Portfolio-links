@@ -33,9 +33,10 @@ export default function Navbar(){
                     </ul>
                     
                  </div>
-            </nav>
 
-             <div className="social-menu">
+
+
+                  <div className="social-menu">
                     <ul>
                         <div className="magnetic">
                             <li><a target="_blank" href="https://www.linkedin.com/in/adam-alexander-91528337/"><i className="ri-linkedin-box-fill"></i></a></li>
@@ -45,6 +46,11 @@ export default function Navbar(){
                         </div>
                     </ul>
                 </div>
+            </nav>
+
+            
+
+            
         </header>
 
         
