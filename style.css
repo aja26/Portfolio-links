@@ -17,6 +17,8 @@ div#root {
     width: 100%;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    width: clamp(20rem, 80%, 70rem);
 }
 
 body{
@@ -26,10 +28,6 @@ body{
     justify-content: center;
     align-items: flex-start;
     overflow-x: hidden;
-}
-
-main{
-   width: clamp(20rem, 80%, 70rem);
 }
 
 /* header */
