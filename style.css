@@ -3,10 +3,10 @@
 
 
 * {
-  box-sizing: border-box;
-  margin: 0px;
-  padding: 0px;
-  font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'poppins', sans-serif;
 }
 
 :root{
@@ -110,12 +110,12 @@ table td i{
 }
 
 .wrapper {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 100%;
-  height: 100vh;
-  background-color: #eaeaea;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #eaeaea;
 }
 
 /* animation */
@@ -162,7 +162,6 @@ section.testing-buttons .container{
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
 
 #magnet-button {
