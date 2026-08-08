@@ -1,7 +1,9 @@
 export default function About(){
     return <>
-        <h1>About</h1>
+  
         <section>
+
+            <h1>About</h1>
 
             <p>I am currently a freelance digital designer with over ten years of experience, I specialise in delivering creative and technical solutions for small to medium-sized businesses. My focus lies in crafting impactful digital and print designs, developing custom HTML/CSS websites, and implementing targeted UX/UI improvements to enhance user engagement and optimise search rankings.</p>
 
