@@ -3,173 +3,171 @@ export default function Home(){
          <table>
             <tbody>
                  <tr>
-                <th>Commercial Links</th>
-                <th>Skills Links</th>
-                <th>Fun Creative Projects</th>
-            </tr>
-            <tr>
-                <td><a target="_blank" href="https://www.msasafety.co.uk/">msasafety</a><i className="ri-wordpress-line"></i></td>
-                <td><a target="_blank" href="https://bootstrap-ebook-website-fg673r5wq-aja26s-projects.vercel.app/">Blog Mastery</a><i className="ri-bootstrap-line"></i></td>
-                <td><a target="_blank" href="https://pearsons-consultancy.vercel.app/">Pearsons Consultancy</a><i className="ri-html5-fill"></i></td>
-            </tr>
-            <tr>
-                <td><a target="_blank" href="https://www.frontrunnerrecruitment.co.uk/">frontrunnerrecruitment</a><i className="ri-wordpress-line"></i></td>
-                <td><a target="_blank" href="https://vera-bootstrap-websote.vercel.app/">Vera Website</a><i className="ri-bootstrap-line"></i></td>
-                <td><a target="_blank" href=""></a></td>
-            </tr>
-            <tr>
-                <td><a target="_blank" href="https://empiricpartners.com/">empiricpartners</a><i className="ri-wordpress-line"></i></td>
-                <td><a target="_blank" href="https://three-js-51-importing-and-optimizin.vercel.app/">ThreeJS Portal Scene</a></td>
-                <td><a target="_blank" href=""></a></td>
-            </tr>
-            <tr>
-                <td><a target="_blank" href="https://www.groupbraddock.com/">groupbraddock</a><i className="ri-wordpress-line"></i></td>
-                <td><a target="_blank" href="https://haunted-house-three-js-sigma.vercel.app/">ThreeJS Haunted House</a></td>
-                <td><a target="_blank" href=""></a></td>
-            </tr>
-             <tr>
-                <td><a target="_blank" href="https://hcr.co.uk/">hcr.co.uk</a><i className="ri-wordpress-line"></i></td>
-                <td><a target="_blank" href="https://galaxy-generator-three-js-nine.vercel.app/">Three.hs Galaxy Generator</a> </td>
-                <td><a target="_blank" href=""></a></td>
-            </tr>
-            <tr>
-                <td><a target="_blank" href="https://rtsfinancialplanning.co.uk/">rts financial planning</a><i className="ri-wordpress-line"></i></td>
-                <td><a target="_blank" href="https://three-js-scroll-based-animation.vercel.app/">Three.JS Basic Scroll Animation</a></td>
-                <td><a target="_blank" href="https://sunnyside-agency-landing-page-git-main-aja26.vercel.app/">SunnySide Landing page</a></td>
-            </tr>
-            <tr>
-                <td><a target="_blank" href=""></a></td>
-                <td><a target="_blank" href="https://66-create-a-game-with-r3f-nu.vercel.app/">Ball Game Three.js</a><i className="ri-reactjs-line"></i></td>
-               <td><a target="_blank" href="https://zebra-landing-page.vercel.app/">Zebra Landing Page</a></td>
-            </tr>
-            <tr>
-                <td><a target="_blank" href=""></a></td>
-                <td><a target="_blank" href=""></a></td>
-                <td><a target="_blank" href="https://frontend-mentor-browser-extensions-manager-ui-main.vercel.app/">Browser Extension App</a></td>
-            </tr>
-            <tr>
-                <td><a target="_blank" href=""></a></td>
-                <td><a target="_blank" href=""></a></td>
-                <td><a target="_blank" href="https://product-list-with-cart-main-five.vercel.app/"> E-commerce Product Demo</a></td>
-            </tr>
-            <tr>
-                <td><a target="_blank" href=""></a></td>
-                <td><a target="_blank" href=""></a></td>
-                <td><a target="_blank" href="https://melodic-sawine-c00712.netlify.app/">CSS Grid Website</a></td>
-            </tr>
-            <tr>
-                <td><a target="_blank" href=""></a></td>
-                <td><a target="_blank" href=""></a></td>
-                <td><a href="https://loopstudios-landing-page-main-coral.vercel.app/">Look Studio Landing page</a><i className="ri-html5-fill"></i></td>
-            </tr>
-            <tr>
-                <td><a target="_blank" href=""></a></td>
-                <td></td>
-                <td><a target="_blank" href="https://insure-landing-page-master-coral.vercel.app/">Insurance Landing page</a><i className="ri-html5-fill"></i></td>
-            </tr>
-            <tr>
-                <td><a target="_blank" href=""></a></td>
-                <td><a target="_blank" href=""></a></td>
-                <td><a target="_blank" href="https://sunnyside-agency-landing-page-git-main-aja26.vercel.app/">Agency Landing Page</a></td>
-            </tr>
-            <tr>
-                <td><a target="_blank" href=""></a></td>
-                <td><a target="_blank" href=""></a></td>
-                <td><a target="_blank" href="https://age-calculator-app-main-using-chatgpt.vercel.app/">Age Calculator</a></td>
-            </tr>
-            <tr>
-                <td><a target="_blank" href=""></a></td>
-                <td><a target="_blank" href=""></a></td>
-                <td><a target="_blank" href="https://earnest-taiyaki-521069.netlify.app/">Banking Landing page</a></td>
-            </tr>
-            <tr>
-                <td><a target="_blank" href=""></a></td>
-                <td><a target="_blank" href=""></a></td>
-                <td><a target="_blank" href="https://elaborate-tarsier-d53364.netlify.app/">Progress Slider</a></td>
-            </tr>
-            <tr>
-                <td><a target="_blank" href=""></a></td>
-                <td><a target="_blank" href=""></a></td>
-                <td><a target="_blank" href="https://cozy-pudding-030bab.netlify.app/">Countdown Timer</a></td>
-            </tr>
-            <tr>
-                <td><a target="_blank" href=""></a></td>
-                <td><a target="_blank" href=""></a></td>
-                <td><a target="_blank" href="https://melodious-marzipan-a7c93f.netlify.app/">Social Media Dashboard</a></td>
-            </tr>
-            <tr>
-                <td><a target="_blank" href=""></a></td>
-                <td><a target="_blank" href=""></a></td>
-                <td><a target="_blank" href="https://capable-cassata-2494be.netlify.app/">E-Commerce Page</a></td>
-            </tr>
-            <tr>
-                <td><a target="_blank" href=""></a></td>
-                <td><a target="_blank" href=""></a></td>
-                <td><a target="_blank" href="https://time-tracking-dashboard-main-plum.vercel.app/">Time Tracking app</a></td>
-            </tr>
-            <tr>
-                <td><a target="_blank" href=""></a></td>
-                <td><a target="_blank" href=""></a></td>
-                <td><a target="_blank" href="https://cool-souffle-fe4942.netlify.app/index.html">Space Website</a></td>
-            </tr>
-             <tr>
-                <td><a target="_blank" href=""></a></td>
-                <td><a target="_blank" href=""></a></td>
-                <td><a target="_blank" href="https://fastidious-praline-7b5e06.netlify.app/">Website Social Section</a></td>
-            </tr>
-             <tr>
-                <td><a target="_blank" href=""></a></td>
-                <td><a target="_blank" href=""></a></td>
-                <td><a target="_blank" href="https://jovial-zabaione-b15afb.netlify.app/">Tips Calculator</a></td>
-            </tr>
-             <tr>
-                <td><a target="_blank" href=""></a></td>
-                <td><a target="_blank" href=""></a></td>
-                <td><a target="_blank" href="https://leafy-pudding-b81ddb.netlify.app/">FAQ Card</a></td>
-            </tr>
-             <tr>
-                <td><a target="_blank" href=""></a></td>
-                <td><a target="_blank" href=""></a></td>
-                <td><a target="_blank" href="https://chimerical-nougat-9b9230.netlify.app/">Stats Preview Card</a></td>
-            </tr>
-             <tr>
-                <td><a target="_blank" href=""></a></td>
-                <td><a target="_blank" href=""></a></td>
-                <td><a target="_blank" href="https://celebrated-paprenjak-ad831f.netlify.app/"> QR Code Component</a></td>
-            </tr>
-             <tr>
-                <td><a target="_blank" href=""></a></td>
-                <td><a target="_blank" href=""></a></td>
-                <td><a target="_blank" href="https://super-medovik-e8956d.netlify.app/">Ratings Component</a> </td>
-            </tr>
-             <tr>
-                <td><a target="_blank" href=""></a></td>
-                <td><a target="_blank" href=""></a></td>
-                <td><a target="_blank" href="https://steady-cocada-825573.netlify.app/">Perfume Discount Popup</a></td>
-            </tr>
-             <tr>
-                <td><a target="_blank" href=""></a></td>
-                <td><a target="_blank" href=""></a></td>
-                <td><a target="_blank" href="https://singular-rolypoly-8bf14f.netlify.app/">Expenses Component</a></td>
-            </tr>
-            <tr>
-                <td><a target="_blank" href=""></a></td>
-                <td><a target="_blank" href=""></a></td>
-                <td><a target="_blank" href=""></a></td>
-            </tr>
-             <tr>
-                <td><a target="_blank" href=""></a></td>
-                <td><a target="_blank" href=""></a></td>
-                <td><a target="_blank" href=""></a></td>
-            </tr>
-             <tr>
-                <td><a target="_blank" href=""></a></td>
-                <td><a target="_blank" href=""></a></td>
-                <td><a target="_blank" href=""></a></td>
-            </tr>
-
+                    <th>Commercial Links</th>
+                    <th>Skills Links</th>
+                    <th>Fun Creative Projects</th>
+                </tr>
+                <tr>
+                    <td><a target="_blank" href="https://www.msasafety.co.uk/">msasafety</a><i className="ri-wordpress-line"></i></td>
+                    <td><a target="_blank" href="https://bootstrap-ebook-website-fg673r5wq-aja26s-projects.vercel.app/">Blog Mastery</a><i className="ri-bootstrap-line"></i></td>
+                    <td><a target="_blank" href="https://pearsons-consultancy.vercel.app/">Pearsons Consultancy</a><i className="ri-html5-fill"></i></td>
+                </tr>
+                <tr>
+                    <td><a target="_blank" href="https://www.frontrunnerrecruitment.co.uk/">frontrunnerrecruitment</a><i className="ri-wordpress-line"></i></td>
+                    <td><a target="_blank" href="https://vera-bootstrap-websote.vercel.app/">Vera Website</a><i className="ri-bootstrap-line"></i></td>
+                    <td><a target="_blank" href=""></a></td>
+                </tr>
+                <tr>
+                    <td><a target="_blank" href="https://empiricpartners.com/">empiricpartners</a><i className="ri-wordpress-line"></i></td>
+                    <td><a target="_blank" href="https://three-js-51-importing-and-optimizin.vercel.app/">ThreeJS Portal Scene</a></td>
+                    <td><a target="_blank" href=""></a></td>
+                </tr>
+                <tr>
+                    <td><a target="_blank" href="https://www.groupbraddock.com/">groupbraddock</a><i className="ri-wordpress-line"></i></td>
+                    <td><a target="_blank" href="https://haunted-house-three-js-sigma.vercel.app/">ThreeJS Haunted House</a></td>
+                    <td><a target="_blank" href=""></a></td>
+                </tr>
+                <tr>
+                    <td><a target="_blank" href="https://hcr.co.uk/">hcr.co.uk</a><i className="ri-wordpress-line"></i></td>
+                    <td><a target="_blank" href="https://galaxy-generator-three-js-nine.vercel.app/">Three.hs Galaxy Generator</a> </td>
+                    <td><a target="_blank" href=""></a></td>
+                </tr>
+                <tr>
+                    <td><a target="_blank" href="https://rtsfinancialplanning.co.uk/">rts financial planning</a><i className="ri-wordpress-line"></i></td>
+                    <td><a target="_blank" href="https://three-js-scroll-based-animation.vercel.app/">Three.JS Basic Scroll Animation</a></td>
+                    <td><a target="_blank" href="https://sunnyside-agency-landing-page-git-main-aja26.vercel.app/">SunnySide Landing page</a></td>
+                </tr>
+                <tr>
+                    <td><a target="_blank" href=""></a></td>
+                    <td><a target="_blank" href="https://66-create-a-game-with-r3f-nu.vercel.app/">Ball Game Three.js</a><i className="ri-reactjs-line"></i></td>
+                    <td><a target="_blank" href="https://zebra-landing-page.vercel.app/">Zebra Landing Page</a></td>
+                </tr>
+                <tr>
+                    <td><a target="_blank" href=""></a></td>
+                    <td><a target="_blank" href=""></a></td>
+                    <td><a target="_blank" href="https://frontend-mentor-browser-extensions-manager-ui-main.vercel.app/">Browser Extension App</a></td>
+                </tr>
+                <tr>
+                    <td><a target="_blank" href=""></a></td>
+                    <td><a target="_blank" href=""></a></td>
+                    <td><a target="_blank" href="https://product-list-with-cart-main-five.vercel.app/"> E-commerce Product Demo</a></td>
+                </tr>
+                <tr>
+                    <td><a target="_blank" href=""></a></td>
+                    <td><a target="_blank" href=""></a></td>
+                    <td><a target="_blank" href="https://melodic-sawine-c00712.netlify.app/">CSS Grid Website</a></td>
+                </tr>
+                <tr>
+                    <td><a target="_blank" href=""></a></td>
+                    <td><a target="_blank" href=""></a></td>
+                    <td><a href="https://loopstudios-landing-page-main-coral.vercel.app/">Look Studio Landing page</a><i className="ri-html5-fill"></i></td>
+                </tr>
+                <tr>
+                    <td><a target="_blank" href=""></a></td>
+                    <td></td>
+                    <td><a target="_blank" href="https://insure-landing-page-master-coral.vercel.app/">Insurance Landing page</a><i className="ri-html5-fill"></i></td>
+                </tr>
+                <tr>
+                    <td><a target="_blank" href=""></a></td>
+                    <td><a target="_blank" href=""></a></td>
+                    <td><a target="_blank" href="https://sunnyside-agency-landing-page-git-main-aja26.vercel.app/">Agency Landing Page</a></td>
+                </tr>
+                <tr>
+                    <td><a target="_blank" href=""></a></td>
+                    <td><a target="_blank" href=""></a></td>
+                    <td><a target="_blank" href="https://age-calculator-app-main-using-chatgpt.vercel.app/">Age Calculator</a></td>
+                </tr>
+                <tr>
+                    <td><a target="_blank" href=""></a></td>
+                    <td><a target="_blank" href=""></a></td>
+                    <td><a target="_blank" href="https://earnest-taiyaki-521069.netlify.app/">Banking Landing page</a></td>
+                </tr>
+                <tr>
+                    <td><a target="_blank" href=""></a></td>
+                    <td><a target="_blank" href=""></a></td>
+                    <td><a target="_blank" href="https://elaborate-tarsier-d53364.netlify.app/">Progress Slider</a></td>
+                </tr>
+                <tr>
+                    <td><a target="_blank" href=""></a></td>
+                    <td><a target="_blank" href=""></a></td>
+                    <td><a target="_blank" href="https://cozy-pudding-030bab.netlify.app/">Countdown Timer</a></td>
+                </tr>
+                <tr>
+                    <td><a target="_blank" href=""></a></td>
+                    <td><a target="_blank" href=""></a></td>
+                    <td><a target="_blank" href="https://melodious-marzipan-a7c93f.netlify.app/">Social Media Dashboard</a></td>
+                </tr>
+                <tr>
+                    <td><a target="_blank" href=""></a></td>
+                    <td><a target="_blank" href=""></a></td>
+                    <td><a target="_blank" href="https://capable-cassata-2494be.netlify.app/">E-Commerce Page</a></td>
+                </tr>
+                <tr>
+                    <td><a target="_blank" href=""></a></td>
+                    <td><a target="_blank" href=""></a></td>
+                    <td><a target="_blank" href="https://time-tracking-dashboard-main-plum.vercel.app/">Time Tracking app</a></td>
+                </tr>
+                <tr>
+                    <td><a target="_blank" href=""></a></td>
+                    <td><a target="_blank" href=""></a></td>
+                    <td><a target="_blank" href="https://cool-souffle-fe4942.netlify.app/index.html">Space Website</a></td>
+                </tr>
+                <tr>
+                    <td><a target="_blank" href=""></a></td>
+                    <td><a target="_blank" href=""></a></td>
+                    <td><a target="_blank" href="https://fastidious-praline-7b5e06.netlify.app/">Website Social Section</a></td>
+                </tr>
+                <tr>
+                    <td><a target="_blank" href=""></a></td>
+                    <td><a target="_blank" href=""></a></td>
+                    <td><a target="_blank" href="https://jovial-zabaione-b15afb.netlify.app/">Tips Calculator</a></td>
+                </tr>
+                <tr>
+                    <td><a target="_blank" href=""></a></td>
+                    <td><a target="_blank" href=""></a></td>
+                    <td><a target="_blank" href="https://leafy-pudding-b81ddb.netlify.app/">FAQ Card</a></td>
+                </tr>
+                <tr>
+                    <td><a target="_blank" href=""></a></td>
+                    <td><a target="_blank" href=""></a></td>
+                    <td><a target="_blank" href="https://chimerical-nougat-9b9230.netlify.app/">Stats Preview Card</a></td>
+                </tr>
+                <tr>
+                    <td><a target="_blank" href=""></a></td>
+                    <td><a target="_blank" href=""></a></td>
+                    <td><a target="_blank" href="https://celebrated-paprenjak-ad831f.netlify.app/"> QR Code Component</a></td>
+                </tr>
+                <tr>
+                    <td><a target="_blank" href=""></a></td>
+                    <td><a target="_blank" href=""></a></td>
+                    <td><a target="_blank" href="https://super-medovik-e8956d.netlify.app/">Ratings Component</a> </td>
+                </tr>
+                <tr>
+                    <td><a target="_blank" href=""></a></td>
+                    <td><a target="_blank" href=""></a></td>
+                    <td><a target="_blank" href="https://steady-cocada-825573.netlify.app/">Perfume Discount Popup</a></td>
+                </tr>
+                <tr>
+                    <td><a target="_blank" href=""></a></td>
+                    <td><a target="_blank" href=""></a></td>
+                    <td><a target="_blank" href="https://singular-rolypoly-8bf14f.netlify.app/">Expenses Component</a></td>
+                </tr>
+                <tr>
+                    <td><a target="_blank" href=""></a></td>
+                    <td><a target="_blank" href=""></a></td>
+                    <td><a target="_blank" href=""></a></td>
+                </tr>
+                <tr>
+                    <td><a target="_blank" href=""></a></td>
+                    <td><a target="_blank" href=""></a></td>
+                    <td><a target="_blank" href=""></a></td>
+                </tr>
+                <tr>
+                    <td><a target="_blank" href=""></a></td>
+                    <td><a target="_blank" href=""></a></td>
+                    <td><a target="_blank" href=""></a></td>
+                </tr>
             </tbody>
-           
         </table>
     </>
 }
