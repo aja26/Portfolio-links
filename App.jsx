@@ -66,14 +66,11 @@ function roll(targets, vars, reverse) {
   return tl;
 }
 
+
 /**
  *  Magnetic buttons
  */
 
-
-/**
-* Magnetic Buttons
-*/
 var magnets = document.querySelectorAll('.magnetic')
 var strength = 50
 
