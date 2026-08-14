@@ -38,8 +38,6 @@ export default function Navbar(){
                     
                  </div>
 
-
-
                   <div className="social-menu">
                     <ul>
                         <div className="magnetic">
@@ -53,41 +51,6 @@ export default function Navbar(){
             </nav>
             
         </header>
-
     )
-    
 }
 
-//  <nav class="container">
-//                 <div class="main-menu">
-//                     <ul>
-//                         <div class="magnetic">
-//                                 <li><a href="index.html">Links</a></li>
-//                         </div>
-                        
-//                         <div class="magnetic">
-//                                 <li><a href="testing.html">Tests</a></li>
-//                         </div>
-
-//                         <div class="magnetic">
-//                             <li><a href="about.html">About</a></li>
-//                         </div>
-
-//                             <div class="magnetic">
-//                                 <li><a href="contact.html">Contact</a></li>
-//                         </div>
-//                     </ul>
-//                 </div>
-               
-//                 <div class="social-menu">
-//                     <ul>
-//                         <div class="magnetic">
-//                             <li><a target="_blank" href="https://www.linkedin.com/in/adam-alexander-91528337/"><i class="ri-linkedin-box-fill"></i></a></li>
-//                         </div>
-//                         <div class="magnetic">
-//                             <li><a target="_blank" href="https://www.behance.net/AdamJA"><i class="ri-behance-line"></i></a></li>
-//                         </div>
-//                     </ul>
-//                 </div>
-        
-//             </nav>
