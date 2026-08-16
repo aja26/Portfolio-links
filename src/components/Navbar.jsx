@@ -25,7 +25,7 @@ export default function Navbar(){
                         </div>
                          <div>
                             <li className="magnetic">
-                                 <Link to="/about">testing</Link>
+                                 <Link to="/testing">testing</Link>
                             </li>
                         </div>
                         <div>
