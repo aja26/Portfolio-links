@@ -20,23 +20,23 @@ export default function Navbar(){
 
                         <div>
                             <li className="magnetic">
-                                 <Link to="/about">about</Link>
+                                 <Link to="/about">About</Link>
                             </li>
                         </div>
                          <div>
                             <li className="magnetic">
-                                 <Link to="/testing">testing</Link>
+                                 <Link to="/testing">Testing</Link>
                             </li>
                         </div>
                         <div>
                             <li className="magnetic">
-                                 <Link to="/projects">projects</Link>
+                                 <Link to="/projects">Projects</Link>
                             </li>
                         </div>
 
                         <div className="magnetic">
                             <li>
-                                 <Link to="/contact">contact</Link>
+                                 <Link to="/contact">Contact</Link>
                             </li>
                         </div>
                     
