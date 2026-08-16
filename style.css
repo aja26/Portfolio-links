@@ -37,7 +37,7 @@ header{
 }
 
 ul > * {
-    margin: 0 clamp(1.35rem, 4vw, 3rem);
+    margin: 0 clamp(1.25rem, 3vw, 2.75rem);
 }
 
 header nav.container{
