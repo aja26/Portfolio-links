@@ -55,7 +55,9 @@ export default function Navbar(){
                     </ul>
                 </div>
             </nav>
-            
+            <div className="mobile-menu-toggle">
+                {/* Icon */}
+            </div>
         </header>
     )
 }
