@@ -36,19 +36,22 @@ header{
     background-color: var(--primary);
 }
 
+ul{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 0;
+}
+
 ul > * {
     margin: 0 clamp(1.25rem, 3vw, 2.75rem);
 }
+
 
 header nav.container{
     display: flex;
     justify-content: space-between;
 }
 
-ul{
-    display: flex;
-    padding: 1rem 0;
-}
 
 header ul li{
     list-style: none;
@@ -267,4 +270,12 @@ form .input-container button{
     .contact-container{
         gap: 1rem;
     }   
+
+    .main-menu ul.mobile{
+        flex-direction: column;
+    }
+
+    header nav.container.mobile{
+        flex-direction: column;
+    }
 }
