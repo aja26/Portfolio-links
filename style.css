@@ -52,6 +52,9 @@ header nav.container{
     justify-content: space-between;
 }
 
+.mobile-menu-toggle{
+    display: none;
+}
 
 header ul li{
     list-style: none;
@@ -277,5 +280,11 @@ form .input-container button{
 
     header nav.container.mobile{
         flex-direction: column;
+    }
+}
+
+@media(max-width:650px){
+     .mobile-menu-toggle{
+        display: block;
     }
 }
