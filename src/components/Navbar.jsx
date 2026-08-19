@@ -56,7 +56,15 @@ export default function Navbar(){
                 </div>
             </nav>
             <div className="mobile-menu-toggle">
-                {/* Icon */}
+
+                <button
+                    type="button"
+                    className="menu-toggle"
+                    onClick={() => setMenuOpen(!menuOpen)}
+                    aria-label="Open menu"
+                >
+                    <i class="ri-menu-line"></i>
+                </button>
             </div>
         </header>
     )
