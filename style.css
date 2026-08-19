@@ -283,6 +283,7 @@ form .input-container button{
     }
 }
 
+/* Mobile menu */
 @media(max-width:650px){
      .mobile-menu-toggle{
         display: block;
