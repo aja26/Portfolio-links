@@ -8,6 +8,9 @@ gsap.registerPlugin(ScrollTrigger);
 
 export default function Navbar(){
 
+    const [menuOpen, setMenuOpen] = useState(false);
+
+
     return (
         <header>
             <nav className="container">
@@ -60,14 +63,9 @@ export default function Navbar(){
             {/* Mobile Menu Toggle */}
             <div className="mobile-menu-toggle">
 
-                <button
-                    type="button"
-                    className="menu-toggle"
-                    onClick={() => setMenuOpen(!menuOpen)}
-                    aria-label="Open menu"
-                >
-                    <i class="ri-menu-line"></i>
-                </button>
+                 <button onClick={() => setMenuOpen(!menuOpen)}>
+                    <i className={menuOpen ? "ri-close-line" : "ri-menu-line"}></i>
+                 </button>
             </div>
         </header>
     )

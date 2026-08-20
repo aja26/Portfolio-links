@@ -285,6 +285,14 @@ form .input-container button{
 
 /* Mobile menu */
 @media(max-width:650px){
+     header nav.container{
+        display: none;
+     }
+
+      header nav.container.mobile{
+        display: block;
+      }
+
      .mobile-menu-toggle{
         display: block;
     }
