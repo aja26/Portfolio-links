@@ -13,9 +13,18 @@ export default function Navbar(){
 
     return (
         <header>
-            <nav className="container">
+            {/* Mobile Menu Toggle */}
+            <div className="mobile-menu-toggle">
+
+                 <button onClick={() => setMenuOpen(!menuOpen)}>
+
+                    <i className={menuOpen ? "ri-close-line" : "ri-menu-line"}></i>
+                 </button>
+            </div>
+            
+            <nav className={`container ${menuOpen ? "mobile" : ""}`}>
                  <div className="main-menu">
-                    <ul>
+                    <ul className={`${menuOpen ? "mobile" : ""}`}>
                         <div className="magnetic">
                             <li>
                                 <Link to="/">Home</Link>
@@ -59,14 +68,6 @@ export default function Navbar(){
                     </ul>
                 </div>
             </nav>
-
-            {/* Mobile Menu Toggle */}
-            <div className="mobile-menu-toggle">
-
-                 <button onClick={() => setMenuOpen(!menuOpen)}>
-                    <i className={menuOpen ? "ri-close-line" : "ri-menu-line"}></i>
-                 </button>
-            </div>
         </header>
     )
 }
