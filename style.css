@@ -36,6 +36,20 @@ header{
     background-color: var(--primary);
 }
 
+.mobile-menu-toggle{
+    display: flex;
+    align-items: center;
+}
+
+.mobile-menu-toggle button{
+    background-color: #000;
+    border: 0px;
+    color: #fff;
+    padding: 0.5rem;
+    z-index: 100;
+    position: relative;
+}
+
 ul{
     display: flex;
     flex-direction: row;
@@ -285,15 +299,40 @@ form .input-container button{
 
 /* Mobile menu */
 @media(max-width:650px){
+
+    header{
+        display: flex;
+        align-items: end;
+        flex-direction: column;
+    }
+
+    header .mobile-menu-toggle button{
+
+    }
+
      header nav.container{
         display: none;
-     }
+    }
 
       header nav.container.mobile{
         display: block;
-      }
+        width: 100%;
+    }
+
+        header nav.container.mobile .main-menu ul{
+            margin-top: -2rem;
+        }
 
      .mobile-menu-toggle{
         display: block;
     }
+
+    header .social-menu ul {
+       margin: 0rem 0rem 1rem;
+    }
+
+    header .social-menu li {
+        margin: 0 0.75rem;
+        font-size: 1.25rem;
+    } 
 }
