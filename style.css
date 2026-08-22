@@ -50,6 +50,10 @@ header{
     position: relative;
 }
 
+.mobile-menu-toggle button{
+    font-size: 1rem;
+}
+
 ul{
     display: flex;
     flex-direction: row;
