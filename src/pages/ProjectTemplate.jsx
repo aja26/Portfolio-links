@@ -2,7 +2,8 @@
 
 export default function ProjectTemplate(){
     return <>
-    <h1>Project Template</h1>
+    <img className="project-featured-img" src="#"></img>
+    <h1>Project Ttitle</h1>
 
     {/* Use Behance as template structure */}
     
