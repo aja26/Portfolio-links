@@ -9,6 +9,9 @@ export default function ProjectTemplate(){
         <p><strong>Live Site: </strong></p>
         <p><strong>Role:</strong></p>
     </section>
+     <section>
+        <img src="#" alt="#" />
+    </section>
     
 
 
