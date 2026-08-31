@@ -1,3 +1,5 @@
+import "../../src/styles/projecttemplate.css";
+
 // The template for each project will run this
 
 export default function ProjectTemplate(){
