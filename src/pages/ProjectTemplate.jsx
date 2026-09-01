@@ -16,7 +16,9 @@ export default function ProjectTemplate(){
     </section>
      <section>
         <img src="#" alt="#" />
-    </section>
+    </section>  <section>
+        <img src="#" alt="#" />
+    </section>s
     
 
 
