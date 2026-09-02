@@ -9,7 +9,7 @@ export default function ProjectTemplate(){
         <h1>Project Ttitle</h1>
         <p><strong>Date</strong></p>
         <p><strong>Live Site: </strong></p>
-        <p><strong>Role:</strong></p>
+        <p><strong>Role: Lead Designer - UX/UI + Web Developer</strong></p>
     </section>
      <section>
         <img src="#" alt="#" />
@@ -18,7 +18,7 @@ export default function ProjectTemplate(){
         <img src="#" alt="#" />
     </section>  <section>
         <img src="#" alt="#" />
-    </section>
+    </section>s
     
 
 
