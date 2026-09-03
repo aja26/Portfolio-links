@@ -12,7 +12,7 @@ export default function ProjectTemplate(){
         <p><strong>Role: Lead Designer - UX/UI + Web Developer</strong></p>
     </section>
      <section>
-        <img src="#" alt="#" />
+        <img src="../assets/media/projects/MSA-Safety/MSA-Safety.jpg" alt="#" />
     </section>
      <section>
         <img src="#" alt="#" />
