@@ -1,5 +1,6 @@
 import "../../src/styles/projecttemplate.css";
 import msaSafetyImage from "../assets/media/projects/MSA-Safety/MSA-Safety.jpg";
+import butlerRecruitmentImage from "../assets/media/projects/Butler-Recrruitment/Butler-Recruitment.jpg";
 
 // The template for each project will run this
 
