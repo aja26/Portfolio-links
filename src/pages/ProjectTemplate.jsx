@@ -6,7 +6,7 @@ import butlerRecruitmentImage from "../assets/media/projects/Butler-Recrruitment
 
 export default function ProjectTemplate(){
     return <>
-    <img className="project-featured-img" src={msaSafetyImage}></img>
+    <img className="project-featured-img" src={msaSafetyImage} alt="MSA Safety"></img>
     <section>
         <h1>Project Ttitle</h1>
         <p><strong>Date</strong></p>
@@ -19,7 +19,7 @@ export default function ProjectTemplate(){
      <section>
         <img src="#" alt="#" />
     </section>  <section>
-        <img src="#" alt="#" />
+        <img src={butlerRecruitmentImage} alt="#" />
     </section>
     
 
