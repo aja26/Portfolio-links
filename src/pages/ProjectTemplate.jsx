@@ -12,9 +12,7 @@ export default function ProjectTemplate(){
     
     <section>
         <h1>Project Ttitle</h1>
-        <p>MSA Safety works with healthcare professionals to ensure a healthier future driven by innovation. Following our initial fact-finding and discovery workshop with the project lead, social brand manager, and marketing specialist, we compiled in-depth stakeholder and user surveys to identify key user goals, current pain points, levels of satisfaction, and future aspirations.
-
-Once we had developed a better understanding of the project, we identified one of the most important priorities for MSA Safety: ensuring their website was informative, easy to use, and, most importantly, effective in driving better sign-ups and enrolments for their courses.</p>
+        <p>MSA Safety works with healthcare professionals to ensure a healthier future driven by innovation. Following our initial fact-finding and discovery workshop with the project lead, social brand manager, and marketing specialist, we compiled in-depth stakeholder and user surveys to identify key user goals, current pain points, levels of satisfaction, and future aspirations. Once we had developed a better understanding of the project, we identified one of the most important priorities for MSA Safety: ensuring their website was informative, easy to use, and, most importantly, effective in driving better sign-ups and enrolments for their courses.</p>
         <p><strong>Live Site: </strong></p>
         <p><strong>Role: Lead Designer - UX/UI + Web Developer</strong></p>
     </section>
