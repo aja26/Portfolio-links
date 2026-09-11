@@ -11,6 +11,8 @@ export default function About(){
             {/* <!-- turn on when going live use  --> */}
             <a target="_blank" href="#">Download CV</a>
             {/* <!-- <a target="_blank" href="/media/docs/Adam_Alexander_CV-UXUI-Designer.pdf">Download CV</a> --> */}
+
+            <img src="" alt="" />
         </section>
         
         </>
