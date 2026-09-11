@@ -17,11 +17,17 @@ export default function ProjectTemplate(){
         <p className="center"><strong>Role: Lead Designer - UX/UI + Web Developer</strong></p>
     </section>
      <section>
-       <img src="" />
+       <img src="" alt=""/>
+       <img src="" alt=""/>
+       <img src="" alt=""/>
     </section>
      <section>
-        <img src="#" alt="#" />
+        <h1 className="center">Sitemaps & Wireframes</h1>
+        <p className="center">...</p>
     </section>  <section>
+        <img src="" alt=""/>
+        <img src="" alt=""/>
+        <img src="" alt=""/>
         <img src={butlerRecruitmentImage} alt="Butler-Recruitment" />
     </section>
     
