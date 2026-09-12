@@ -24,11 +24,15 @@ export default function ProjectTemplate(){
      <section>
         <h1 className="center">Sitemaps & Wireframes</h1>
         <p className="center">...</p>
-    </section>  <section>
+    </section>  
+    <section>
         <img src="" alt=""/>
         <img src="" alt=""/>
         <img src="" alt=""/>
         <img src={butlerRecruitmentImage} alt="Butler-Recruitment" />
+    </section>
+    <section>
+        
     </section>
     
 
