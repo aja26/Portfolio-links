@@ -31,7 +31,8 @@ export default function ProjectTemplate(){
         <img src="" alt=""/>
     </section>
     <section>
-        
+        <h1 className="center">Design Iteration</h1>
+        <p className="center">...</p>
     </section>
      <section>
         <img src="" alt=""/>
