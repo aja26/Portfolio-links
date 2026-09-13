@@ -29,10 +29,15 @@ export default function ProjectTemplate(){
         <img src="" alt=""/>
         <img src="" alt=""/>
         <img src="" alt=""/>
-        <img src={butlerRecruitmentImage} alt="Butler-Recruitment" />
     </section>
     <section>
         
+    </section>
+     <section>
+        <img src="" alt=""/>
+        <img src="" alt=""/>
+        <img src="" alt=""/>
+        <img src={butlerRecruitmentImage} alt="Butler-Recruitment" />
     </section>
     
 
