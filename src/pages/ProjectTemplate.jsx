@@ -32,7 +32,7 @@ export default function ProjectTemplate(){
     </section>
     <section>
         <h1 className="center">Design Iteration</h1>
-        <p className="center">...</p>
+        <p className="center">text will go here</p>
         <img src="" alt="image to go here"/>
     </section>
      <section>
