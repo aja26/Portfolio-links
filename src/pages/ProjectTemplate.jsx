@@ -37,6 +37,8 @@ export default function ProjectTemplate(){
     </section>
      <section>
         <img src="" alt=""/>
+        <h1 className="center">Sub Pages</h1>
+        <p className="center">text will go here</p>
         <img src="" alt=""/>
         <img src="" alt=""/>
         <img src={butlerRecruitmentImage} alt="Butler-Recruitment" />
