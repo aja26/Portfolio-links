@@ -23,22 +23,25 @@ export default function ProjectTemplate(){
     </section>
      <section>
         <h1 className="center">Sitemaps & Wireframes</h1>
-        <p className="center">...</p>
+        <p className="center">To increase activity...</p>
+        <img src="" alt=""/>
+        <img src="" alt=""/>
+        <img src="" alt=""/>
     </section>  
     <section>
-        <img src="" alt=""/>
-        <img src="" alt=""/>
-        <img src="" alt=""/>
-    </section>
-    <section>
         <h1 className="center">Design Iteration</h1>
-        <p className="center">text will go here</p>
+        <p className="center">After a number of </p>
         <img src="" alt="image to go here"/>
     </section>
-     <section>
-        <img src="" alt=""/>
+    <section>
+         <img src="" alt=""/>
         <h1 className="center">Sub Pages</h1>
-        <p className="center">text will go here</p>
+        <p className="center">The main goal</p>
+        <img src="" alt=""/>
+        <img src="" alt=""/>
+    </section>
+     <section>
+       {/* FINISH */}
         <img src="" alt=""/>
         <img src="" alt=""/>
         <img src={butlerRecruitmentImage} alt="Butler-Recruitment" />
