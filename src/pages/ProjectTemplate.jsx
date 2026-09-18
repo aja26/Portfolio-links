@@ -43,7 +43,7 @@ export default function ProjectTemplate(){
      <section>
        {/* FINISH */}
         <img src="" alt=""/>
-        <img src="" alt=""/>
+        <img src="" alt="mobile-sub-pages"/>
         <img src={butlerRecruitmentImage} alt="Butler-Recruitment" />
     </section>
     
