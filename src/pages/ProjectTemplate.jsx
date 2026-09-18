@@ -37,14 +37,13 @@ export default function ProjectTemplate(){
          <img src="" alt=""/>
         <h1 className="center">Sub Pages</h1>
         <p className="center">The main goal</p>
-        <img src="" alt=""/>
-        <img src="" alt=""/>
+        <img src="" alt="desktop-sub-pages"/>
+        <img src="" alt="mobile-sub-pages"/>
     </section>
      <section>
        {/* FINISH */}
-        <img src="" alt=""/>
-        <img src="" alt="mobile-sub-pages"/>
-        <img src={butlerRecruitmentImage} alt="Butler-Recruitment" />
+       
+        {/* <img src={butlerRecruitmentImage} alt="Butler-Recruitment" /> */}
     </section>
     
 
