@@ -17,16 +17,16 @@ export default function ProjectTemplate(){
         <p className="center"><strong>Role: Lead Designer - UX/UI + Web Developer</strong></p>
     </section>
      <section>
-       <img src="" alt=""/>
-       <img src="" alt=""/>
-       <img src="" alt=""/>
+       <img className="project-image" src="" alt=""/>
+       <img className="project-image" src="" alt=""/>
+       <img className="project-image" src="" alt=""/>
     </section>
      <section>
         <h1 className="center">Sitemaps & Wireframes</h1>
         <p className="center">To increase activity...</p>
-        <img src="" alt=""/>
-        <img src="" alt=""/>
-        <img src="" alt=""/>
+        <img className="project-image" src="" alt=""/>
+        <img className="project-image" src="" alt=""/>
+        <img className="project-image" src="" alt=""/>
     </section>  
     <section>
         <h1 className="center">Design Iteration</h1>
@@ -37,8 +37,8 @@ export default function ProjectTemplate(){
          <img src="" alt=""/>
         <h1 className="center">Sub Pages</h1>
         <p className="center">The main goal</p>
-        <img src="" alt="desktop-sub-pages"/>
-        <img src="" alt="mobile-sub-pages"/>
+        <img className="project-image" src="" alt="desktop-sub-pages"/>
+        <img className="project-image" src="" alt="mobile-sub-pages"/>
     </section>
      <section>
        {/* FINISH */}
