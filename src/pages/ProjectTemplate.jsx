@@ -46,11 +46,5 @@ export default function ProjectTemplate(){
         {/* <img src={butlerRecruitmentImage} alt="Butler-Recruitment" /> */}
     </section>
     
-
-
-
-    {/* Use Behance as template structure */}
-    
-    <p className="project-desc">Here is the project desc</p>
     </>
 }
