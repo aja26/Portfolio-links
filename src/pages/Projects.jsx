@@ -3,5 +3,7 @@ export default function Projects(){
 
 
 
-    // tabs where you can select projects based on category (design | developement) // TOGGLE
+    // tabs where you can select projects based on category (All, Design | Developement) // TOGGLE
+
+    // Contact Section
 }
