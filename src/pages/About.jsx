@@ -14,6 +14,10 @@ export default function About(){
 
             <img src="" alt="" />
         </section>
+
+        {/* Overview of process section */}
+
+        {/* Contact section */}
         
         </>
 }
