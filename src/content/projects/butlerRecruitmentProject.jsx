@@ -1,4 +1,4 @@
-export default function msaSafety() {
+export default function butlerRecruitmentProject() {
   return (
     <main>
       <h1>Project One</h1>
