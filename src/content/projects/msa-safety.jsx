@@ -1,4 +1,4 @@
-export default function project1() {
+export default function msaSafety() {
   return (
     <main>
       <h1>Project One</h1>
