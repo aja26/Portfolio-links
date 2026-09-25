@@ -6,7 +6,7 @@ import About from "./src/pages/About";
 import Projects from "./src/pages/Projects";
 import Contact from "./src/pages/Contact";
 import Testing from "./src/pages/Testing";
-import ProjectTemplate from "./content/projects/ProjectTemplate";
+import ProjectTemplate from "./src/content/projects/ProjectTemplate";
 
 export default function App(){
     return(
