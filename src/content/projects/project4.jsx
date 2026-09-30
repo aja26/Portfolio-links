@@ -7,7 +7,7 @@ export default function msaSafetyProject() {
 
       <img src="" />
 
-      <h2>The problem is the donnar</h2>
+      <h2>The problem is the poo poo poo poo poo</h2>
       <p>...</p>
 
       <h2>The solution</h2>
