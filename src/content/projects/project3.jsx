@@ -1,7 +1,7 @@
-export default function project4() {
+export default function project3() {
   return (
     <main>
-      <h1>Project One</h1>
+      <h1>Project Three</h1>
 
       <p>Project overview...</p>
 
