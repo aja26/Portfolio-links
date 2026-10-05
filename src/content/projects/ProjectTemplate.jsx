@@ -23,7 +23,7 @@ export default function ProjectTemplate(){
     </section>
      <section>
         <h1 className="center">Sitemaps & Wireframes</h1>
-        <p className="center">To increase activity...</p>
+        <p className="center">To increase activity and sign ups for the courses we spent some time refining the MSA Safety sitemap by reducing the number of top level pages and overall number of pages from 59 to 46 pages. We also created a few mew categories to reduce the number of lower pages to help users get to the right courses. You can see the reduced sitemap below:</p>
         <img className="project-image" src="" alt=""/>
         <img className="project-image" src="" alt=""/>
         <img className="project-image" src="" alt=""/>
