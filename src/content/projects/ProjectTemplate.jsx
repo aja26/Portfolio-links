@@ -30,7 +30,7 @@ export default function ProjectTemplate(){
     </section>  
     <section>
         <h1 className="center">Design Iteration</h1>
-        <p className="center">After a number of wireframe iterations we also completed a few different design ideas to test user engagement by changing content order as well as
+        <p className="center">After a number of wireframe iterations we also completed a few different design ideas to test user engagement/experience. We learned from hotter user analysis where users were dropping off and what content they were engaging with the most. This helped us drastically improve the user engagement by changing content order we well as layout/style on certin sections to improve the users experience.
         </p>
         <img src="" alt="image to go here"/>
     </section>
