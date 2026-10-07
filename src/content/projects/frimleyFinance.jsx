@@ -1,7 +1,7 @@
-export default function project3() {
+export default function frimleyFinance() {
   return (
     <main>
-      <h1>Project Three</h1>
+      <h1>Frimley Finance</h1>
 
       <p>Project overview...</p>
 
