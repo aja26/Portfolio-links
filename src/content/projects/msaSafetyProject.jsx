@@ -1,7 +1,7 @@
 export default function msaSafetyProject() {
   return (
     <main>
-      <h1>Project One</h1>
+      <h1>MSA Safety</h1>
 
       <p>Project overview...</p>
 
