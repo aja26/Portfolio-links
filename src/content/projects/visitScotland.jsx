@@ -1,7 +1,7 @@
-export default function project4() {
+export default function visitScotland() {
   return (
     <main>
-      <h1>Project Four</h1>
+      <h1>Visit Scotland</h1>
 
       <p>Project overview...</p>
 
