@@ -37,7 +37,7 @@ export default function ProjectTemplate(){
     <section>
          <img src="" alt=""/>
         <h1 className="center">Sub Pages</h1>
-        <p className="center">The main goal of the MSA Safety website was always to increase the number of enrolments.</p>
+        <p className="center">The main goal of the MSA Safety website was always to increase the number of enrolments. The key problem we identified was </p>
         <img className="project-image" src="" alt="desktop-sub-pages"/>
         <img className="project-image" src="" alt="mobile-sub-pages"/>
     </section>
