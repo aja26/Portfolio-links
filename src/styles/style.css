@@ -323,9 +323,9 @@ form .input-container button{
         width: 100%;
     }
 
-        header nav.container.mobile .main-menu ul{
+    header nav.container.mobile .main-menu ul{
             margin-top: -2rem;
-        }
+    }
 
      .mobile-menu-toggle{
         display: block;
