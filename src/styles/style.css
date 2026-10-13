@@ -18,7 +18,7 @@ div#root {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: clamp(20rem, 80%, 70rem);
+    /* width: clamp(20rem, 80%, 70rem); */
 }
 
 body{
@@ -48,6 +48,7 @@ header{
     padding: 0.25rem 0.5rem;
     z-index: 100;
     position: relative;
+    cursor: pointer;
 }
 
 .mobile-menu-toggle button{
