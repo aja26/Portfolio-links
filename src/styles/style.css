@@ -21,6 +21,12 @@ div#root {
     /* width: clamp(20rem, 80%, 70rem); */
 }
 
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 body{
     width: 100%;
     min-height: 100vh;
