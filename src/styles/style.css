@@ -21,8 +21,9 @@ div#root {
     /* width: clamp(20rem, 80%, 70rem); */
 }
 
-main {
-    display: flex;
+
+main .container-home{
+     display: flex;
     align-items: center;
     justify-content: center;
 }
@@ -217,16 +218,22 @@ section.testing-buttons .container{
 
 /* Contact Page */
 
-.contact-container{
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1.5rem;
+}
+
+.contact-details-container{
     display: flex;
     gap: 1.5rem;
 }
 
-.contact-container .contact-form{
+.contact-details-container .contact-form{
     flex: 2;
 }
 
-.contact-container .contact-info{
+.contact-details-container .contact-info{
     flex: 1;
 }
 
@@ -346,4 +353,10 @@ form .input-container button{
         margin: 0 0.75rem;
         font-size: 1.25rem;
     } 
+
+    .contact-details-container {
+        flex-direction: column-reverse;
+}
+
+
 }
