@@ -52,7 +52,7 @@ header{
     background-color: #000;
     border: 0px;
     color: #fff;
-    padding: 0.25rem 0.5rem;
+    padding: 0.25rem 0.4rem 0.25rem 0.5rem;
     z-index: 100;
     position: relative;
     cursor: pointer;
