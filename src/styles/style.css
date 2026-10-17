@@ -324,9 +324,9 @@ form .input-container button{
         flex-direction: column;
     }
 
-    header .mobile-menu-toggle button{
+    /* header .mobile-menu-toggle button{
 
-    }
+    } */
 
      header nav.container{
         display: none;
@@ -338,7 +338,7 @@ form .input-container button{
     }
 
     header nav.container.mobile .main-menu ul{
-            margin-top: -2rem;
+        margin-top: -2rem;
     }
 
      .mobile-menu-toggle{
