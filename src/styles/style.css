@@ -90,6 +90,7 @@ header ul li a{
      color:#fff;
      font-weight: 600;
      text-decoration: none;
+     font-size: 1.1rem;
 }
 
 header ul li a:hover{
@@ -273,6 +274,18 @@ form .input-container button{
     table td{
         width: 20rem;
     }
+
+     header .social-menu ul{
+        margin-left: -5.25rem
+    }
+
+      .main-menu ul.mobile{
+        flex-direction: column;
+    }
+
+    header nav.container.mobile{
+        flex-direction: column;
+    }
 }
 
 @media(max-width:770px){
@@ -287,10 +300,6 @@ form .input-container button{
 
     header ul li {
         font-size: 0.82rem;
-    }
-
-    header .social-menu ul{
-        margin-left: -5.25rem
     }
 
     header .social-menu li {
@@ -313,6 +322,7 @@ form .input-container button{
     header nav.container.mobile{
         flex-direction: column;
     }
+
 }
 
 /* Mobile menu */
@@ -356,7 +366,6 @@ form .input-container button{
 
     .contact-details-container {
         flex-direction: column-reverse;
-}
-
+    }
 
 }
