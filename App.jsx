@@ -12,7 +12,6 @@ import ProjectListsTable from "./src/pages/ProjectListsTable";
 export default function App(){
     return(
         <>
-            
             <Navbar />
         
             <main>
@@ -29,6 +28,8 @@ export default function App(){
         </>
     )
 }
+
+// Animations 
 
 gsap.registerPlugin(ScrollTrigger);
 
