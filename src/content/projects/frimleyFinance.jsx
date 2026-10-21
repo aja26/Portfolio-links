@@ -3,7 +3,7 @@ export default function frimleyFinance() {
     <main>
       <h1>Frimley Finance</h1>
 
-      <p>Project overview...</p>
+      <p>Project overview..</p>
 
       <img src="" />
 
