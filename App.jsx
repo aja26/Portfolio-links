@@ -44,9 +44,8 @@ export default function App(){
 function Box() {
   const meshRef = useRef()
 
-
   return (
-    <mesh ref={meshRef}>
+    <mesh ref={meshRef} rotation={[0.4, 0.6, 0]}>
       <boxGeometry />
       <meshNormalMaterial />
     </mesh>
