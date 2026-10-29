@@ -33,8 +33,6 @@ export default function App(){
           {/* three.js canvas */}
             <div style={{ width: '100vw', height: '100vh' }}>
                 <Canvas camera={{ position: [0, 0, 3], fov: 75 }}>
-                    <ambientLight intensity={0.5} />
-                    <directionalLight position={[5, 5, 5]} />
                     <Box />
                 </Canvas>
             </div>
@@ -46,9 +44,6 @@ export default function App(){
 function Box() {
   const meshRef = useRef()
 
-  useFrame((state, delta) => {
-    meshRef.current.rotation.y += delta
-  })
 
   return (
     <mesh ref={meshRef}>
