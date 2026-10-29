@@ -1,6 +1,6 @@
+// Navigation Imports
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./src/components/Navbar";
-
 import Home from "./src/pages/Home";
 import About from "./src/pages/About";
 import Projects from "./src/pages/Projects";
@@ -8,6 +8,10 @@ import Contact from "./src/pages/Contact";
 import Testing from "./src/pages/Testing";
 import ProjectTemplate from "./src/content/projects/ProjectTemplate";
 import ProjectListsTable from "./src/pages/ProjectListsTable";
+
+// React Three Fiber Imports
+import { Canvas, useFrame } from '@react-three/fiber'
+import { useRef } from 'react'
 
 export default function App(){
     return(
@@ -25,9 +29,35 @@ export default function App(){
                     <Route path="/projectliststable" element={<ProjectListsTable />} />
                 </Routes>
             </main>
+
+          {/* three.js canvas */}
+            <div style={{ width: '100vw', height: '100vh' }}>
+                <Canvas camera={{ position: [0, 0, 3], fov: 75 }}>
+                    <ambientLight intensity={0.5} />
+                    <directionalLight position={[5, 5, 5]} />
+                    <Box />
+                </Canvas>
+            </div>
         </>
     )
 }
+
+
+function Box() {
+  const meshRef = useRef()
+
+  useFrame((state, delta) => {
+    meshRef.current.rotation.y += delta
+  })
+
+  return (
+    <mesh ref={meshRef}>
+      <boxGeometry />
+      <meshNormalMaterial />
+    </mesh>
+  )
+}
+
 
 // Animations 
 
