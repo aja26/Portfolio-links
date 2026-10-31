@@ -34,6 +34,7 @@ export default function App(){
             <div style={{ width: '100vw', height: '100vh' }}>
                 <Canvas camera={{ position: [0, 0, 3], fov: 75 }}>
                     <Box />
+                    <Box2 />
                 </Canvas>
             </div>
         </>
@@ -42,6 +43,17 @@ export default function App(){
 
 
 function Box() {
+  const meshRef = useRef()
+
+  return (
+    <mesh ref={meshRef} position={[1, 2, -1]} rotation={[0.75, 0.5, 1]}>
+      <boxGeometry />
+      <meshNormalMaterial />
+    </mesh>
+  )
+}
+
+function Box2() {
   const meshRef = useRef()
 
   return (
