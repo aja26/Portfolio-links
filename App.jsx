@@ -45,7 +45,7 @@ function Box() {
   const meshRef = useRef()
 
   return (
-    <mesh ref={meshRef} rotation={[0.4, 0.6, 0]}>
+    <mesh ref={meshRef} rotation={[0.4, 0.65, 0]}>
       <boxGeometry />
       <meshNormalMaterial />
     </mesh>
