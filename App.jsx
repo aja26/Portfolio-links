@@ -35,6 +35,7 @@ export default function App(){
                 <Canvas camera={{ position: [0, 0, 3], fov: 75 }}>
                     <Box />
                     <Box2 />
+                    <Box3 />
                 </Canvas>
             </div>
         </>
@@ -45,7 +46,7 @@ export default function App(){
 function Box() {
 
   return (
-    <mesh position={[1, 2, -1]} rotation={[0.75, 0.5, 1]}>
+    <mesh rotation={[0.75, 0.5, 1]}>
       <boxGeometry />
       <meshNormalMaterial />
     </mesh>
@@ -55,7 +56,17 @@ function Box() {
 function Box2() {
 
   return (
-    <mesh  rotation={[0.4, 0.65, 0]}>
+    <mesh position={[1, 1.65, -1]} rotation={[0.4, 0.65, 0]}>
+      <boxGeometry />
+      <meshNormalMaterial />
+    </mesh>
+  )
+}
+
+function Box3() {
+
+  return (
+    <mesh position={[-1.5, 2.5, -2]} rotation={[-2.4, -1.5, 1.4]}>
       <boxGeometry />
       <meshNormalMaterial />
     </mesh>
