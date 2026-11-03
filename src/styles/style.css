@@ -269,6 +269,10 @@ form .input-container button{
     cursor: pointer;
 }
 
+canvas {
+    outline: solid 2px #000;
+}
+
 
 @media(min-width:1070px){
     table td{
@@ -333,10 +337,6 @@ form .input-container button{
         align-items: end;
         flex-direction: column;
     }
-
-    /* header .mobile-menu-toggle button{
-
-    } */
 
      header nav.container{
         display: none;
