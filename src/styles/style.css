@@ -269,8 +269,9 @@ form .input-container button{
     cursor: pointer;
 }
 
-div canvas {
-    outline: solid 2px #000;
+canvas {
+    border: solid 1px #000;
+    margin: 1rem 0;
 }
 
 
