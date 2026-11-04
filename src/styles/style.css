@@ -269,7 +269,7 @@ form .input-container button{
     cursor: pointer;
 }
 
-canvas {
+div canvas {
     outline: solid 2px #000;
 }
 
