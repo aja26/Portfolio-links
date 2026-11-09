@@ -36,6 +36,7 @@ export default function App(){
                     <Box />
                     <Box2 />
                     <Box3 />
+                    <Sphere />
                 </Canvas>
             </div>
         </>
@@ -66,8 +67,18 @@ function Box2() {
 function Box3() {
 
   return (
-    <mesh position={[-1.5, 2.5, -2]} rotation={[-2.4, -1.5, 1.4]}>
+    <mesh position={[-2.5, 2.4, -3.5]} rotation={[-0.4, -0.15, 1.4]}>
       <boxGeometry />
+      <meshNormalMaterial />
+    </mesh>
+  )
+}
+
+function Sphere() {
+
+  return (
+    <mesh position={[0, 5, -5.7]} rotation={[-2.4, -1.5, 1.4]}>
+      <sphereGeometry />
       <meshNormalMaterial />
     </mesh>
   )
