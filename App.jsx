@@ -11,7 +11,6 @@ import ProjectListsTable from "./src/pages/ProjectListsTable";
 
 // React Three Fiber Imports
 import { Canvas, useFrame } from '@react-three/fiber';
-import { useRef } from 'react';
 
 export default function App(){
     return(
