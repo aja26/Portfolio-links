@@ -21,7 +21,6 @@ export default function Home(){
 
 
 function Box() {
-
   return (
     <mesh rotation={[0.75, 0.5, 1]}>
       <boxGeometry />
@@ -31,7 +30,6 @@ function Box() {
 }
 
 function Box2() {
-
   return (
     <mesh position={[1, 1.65, -1]} rotation={[0.4, 0.65, 0]}>
       <boxGeometry />
@@ -41,7 +39,6 @@ function Box2() {
 }
 
 function Box3() {
-
   return (
     <mesh position={[-2.5, 2.4, -3.5]} rotation={[-0.4, -0.15, 1.4]}>
       <boxGeometry />
