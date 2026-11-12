@@ -9,8 +9,6 @@ import Testing from "./src/pages/Testing";
 import ProjectTemplate from "./src/content/projects/ProjectTemplate";
 import ProjectListsTable from "./src/pages/ProjectListsTable";
 
-// React Three Fiber Imports
-import { Canvas, useFrame } from '@react-three/fiber';
 
 export default function App(){
     return(
@@ -29,59 +27,11 @@ export default function App(){
                 </Routes>
             </main>
 
-          {/* three.js canvas */}
-            <div style={{ width: '100vw', height: '100vh' }}>
-                <Canvas camera={{ position: [0, 0, 3], fov: 75 }}>
-                    <Box />
-                    <Box2 />
-                    <Box3 />
-                    <Sphere />
-                </Canvas>
-            </div>
+          
         </>
     )
 }
 
-
-function Box() {
-
-  return (
-    <mesh rotation={[0.75, 0.5, 1]}>
-      <boxGeometry />
-      <meshNormalMaterial />
-    </mesh>
-  )
-}
-
-function Box2() {
-
-  return (
-    <mesh position={[1, 1.65, -1]} rotation={[0.4, 0.65, 0]}>
-      <boxGeometry />
-      <meshNormalMaterial />
-    </mesh>
-  )
-}
-
-function Box3() {
-
-  return (
-    <mesh position={[-2.5, 2.4, -3.5]} rotation={[-0.4, -0.15, 1.4]}>
-      <boxGeometry />
-      <meshNormalMaterial />
-    </mesh>
-  )
-}
-
-function Sphere() {
-
-  return (
-    <mesh position={[0, 5, -5.7]} rotation={[-2.4, -1.5, 1.4]}>
-      <sphereGeometry />
-      <meshNormalMaterial />
-    </mesh>
-  )
-}
 
 
 // Animations 
