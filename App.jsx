@@ -26,8 +26,6 @@ export default function App(){
                     <Route path="/projectliststable" element={<ProjectListsTable />} />
                 </Routes>
             </main>
-
-          
         </>
     )
 }
