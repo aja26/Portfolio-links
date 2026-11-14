@@ -7,14 +7,14 @@ export default function Home(){
     <h1>Home</h1>
 
     {/* three.js canvas */}
-            <div style={{ width: '100vw', height: '100vh' }}>
-                <Canvas camera={{ position: [0, 0, 3], fov: 75 }}>
-                    <Box />
-                    <Box2 />
-                    <Box3 />
-                    <Sphere />
-                </Canvas>
-            </div>
+        <div style={{ width: '100vw', height: '100vh' }}>
+            <Canvas camera={{ position: [0, 0, 3], fov: 75 }}>
+                <Box />
+                <Box2 />
+                <Box3 />
+                <Sphere />
+            </Canvas>
+        </div>
     </>
 
 
@@ -46,7 +46,6 @@ function Box3() {
 }
 
 function Sphere() {
-
   return (
     <mesh position={[0, 5, -5.7]} rotation={[-2.4, -1.5, 1.4]}>
       <sphereGeometry />
