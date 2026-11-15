@@ -4,6 +4,7 @@ import { Canvas, useFrame } from '@react-three/fiber';
 export default function Home(){
     return <>
 
+    <section className="home-intro"></section>
     <h1>Home</h1>
 
     {/* three.js canvas */}
