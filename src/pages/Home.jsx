@@ -6,6 +6,7 @@ export default function Home(){
 
     <section className="home-intro"></section>
     <h1>Home</h1>
+    <footer></footer>
 
     {/* three.js canvas */}
         <div style={{ width: '100vw', height: '100vh' }}>
