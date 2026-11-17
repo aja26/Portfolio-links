@@ -52,9 +52,7 @@ export default function Navbar(){
                                  <Link to="/contact">Contact</Link>
                             </li>
                         </div>
-                    
                     </ul>
-                    
                  </div>
 
                   <div className="social-menu">
