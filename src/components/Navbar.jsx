@@ -10,7 +10,6 @@ export default function Navbar(){
 
     const [menuOpen, setMenuOpen] = useState(false);
 
-
     return (
         <header>
             {/* Mobile Menu Toggle */}

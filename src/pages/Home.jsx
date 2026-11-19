@@ -19,7 +19,7 @@ export default function Home(){
             </Canvas>
         </div>
 
-        <Footer />
+        {/* <Footer /> */}
     </>
 
 
