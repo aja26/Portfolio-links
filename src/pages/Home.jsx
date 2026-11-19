@@ -1,6 +1,6 @@
 // React Three Fiber Imports
 import { Canvas, useFrame } from '@react-three/fiber';
-import { Footer } from '../components/Footer';
+import Footer from '../components/Footer';
 
 export default function Home(){
     return <>
@@ -19,7 +19,7 @@ export default function Home(){
             </Canvas>
         </div>
 
-        {/* <Footer /> */}
+        <Footer />
     </>
 
 
