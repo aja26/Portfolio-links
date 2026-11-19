@@ -1,12 +1,13 @@
 // React Three Fiber Imports
 import { Canvas, useFrame } from '@react-three/fiber';
+import { Footer } from '../components/Footer';
 
 export default function Home(){
     return <>
 
     <section className="home-intro"></section>
     <h1>Home</h1>
-    <footer></footer>
+    
 
     {/* three.js canvas */}
         <div style={{ width: '100vw', height: '100vh' }}>
@@ -17,6 +18,8 @@ export default function Home(){
                 <Sphere />
             </Canvas>
         </div>
+
+        <Footer />
     </>
 
 
