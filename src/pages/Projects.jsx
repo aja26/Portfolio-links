@@ -1,3 +1,5 @@
+import Footer from '../components/Footer';
+
 export default function Projects(){
     return <><h1>Creating next level digital experiences</h1></>
 
