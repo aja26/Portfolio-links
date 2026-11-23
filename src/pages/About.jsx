@@ -19,7 +19,6 @@ export default function About(){
 
         {/* Overview of process section */}
 
-        {/* Contact section */}
-        
+        <Footer />
         </>
 }
