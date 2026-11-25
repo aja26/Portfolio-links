@@ -1,3 +1,5 @@
+ import Footer from "../components/Footer";
+ 
  export default function ProjectListsTable() {
    
     return <>
@@ -172,6 +174,8 @@
                 </tbody>
             </table>
         </div>
+
+        <Footer />
     </>
 
 
