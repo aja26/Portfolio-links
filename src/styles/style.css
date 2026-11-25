@@ -272,6 +272,16 @@ canvas {
     /*  */
 }
 
+/* footer */
+
+footer {
+    display: flex;
+    padding: 1rem 0rem 1rem 0.75rem;
+    background: black;
+    color: white;
+    margin-top: 1rem;
+}
+
 
 @media(min-width:1070px){
     table td{
