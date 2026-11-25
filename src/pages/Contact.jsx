@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar"
 
 export default function Contact(){
     return <> 
-        <div className="contact-container">
+        <div className="main-container contact-container">
             <h1 className="form-title">Contact Us</h1>
 
              <div className="container contact-details-container">

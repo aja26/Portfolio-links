@@ -5,20 +5,24 @@ import Footer from '../components/Footer';
 export default function Home(){
     return <>
 
-    <section className="home-intro"></section>
-    <h1>Home</h1>
+    <div className="main-container home-container">
 
-    {/* three.js canvas */}
-        <div style={{ width: '100vw', height: '100vh' }}>
-            <Canvas camera={{ position: [0, 0, 3], fov: 75 }}>
-                <Box />
-                <Box2 />
-                <Box3 />
-                <Sphere />
-            </Canvas>
-        </div>
+      <section className="home-intro"></section>
+      <h1>Home</h1>
 
-        <Footer />
+      {/* three.js canvas */}
+      <div style={{ width: '100vw', height: '100vh' }}>
+          <Canvas camera={{ position: [0, 0, 3], fov: 75 }}>
+              <Box />
+              <Box2 />
+              <Box3 />
+              <Sphere />
+          </Canvas>
+      </div>
+    </div>
+
+    <Footer />
+    
     </>
 
 

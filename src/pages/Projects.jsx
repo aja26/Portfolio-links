@@ -1,7 +1,13 @@
 import Footer from '../components/Footer';
 
 export default function Projects(){
-    return <><h1>Creating next level digital experiences</h1>
+    return <>
+    
+    <div className="main-container projects-container">
+         <h1>Creating next level digital experiences</h1>
+
+    </div>
+   
     
     
     

@@ -148,6 +148,10 @@ table td i{
     background-color: #eaeaea;
 }
 
+.main-container{
+    margin: 0 1.5rem;
+}
+
 /* animation */
 
 section.textroll-section{
@@ -213,13 +217,11 @@ section.testing-buttons .container{
   box-shadow: 0px 2px 25px rgba(0,0,0,0.5);
 }
 
-
 /* Contact Page */
 
 .contact-container {
     display: flex;
     flex-direction: column;
-    margin: 0 1.5rem;
 }
 
 .contact-details-container{
@@ -271,6 +273,7 @@ canvas {
     margin: 1rem 0;
     /*  */
 }
+
 
 /* footer */
 
